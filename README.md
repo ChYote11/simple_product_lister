@@ -15,7 +15,7 @@
 
 ## การจัดการ State (State Management)
 
-ในหน้าจอ **Product List Page** ผมใช้ **Product List Page** ที่เป็น `StatelessWidget` ครอบ Widge **Product List** ที่เป็น `StatefulWidget` และใช้ร่วมกับ `setState`
+ในหน้าจอ **Product List Page** ผมใช้ **Product List Page** ที่เป็น `StatelessWidget` ครอบ Widge **Product List** ที่เป็น `StatefulWidget` และใช้ `setState`
 เพื่อจัดการสถานะของ UI ซึ่งแบ่งออกเป็น 3 สถานะหลัก ได้แก่
 
 - **Loading State**  
